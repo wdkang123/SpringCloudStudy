@@ -2,14 +2,19 @@ spring:
   profiles:
     active:
       - dev
+
 ---
+
 spring:
   profiles: dev     #开发环境
   application:
-    name: microservicecloud-config-atguigu-dev
+    name: microservicecloud-config-wdkang-dev
+
 ---
+
 spring:
   profiles: test   #测试环境
   application:
-    name: microservicecloud-config-atguigu-test
+    name: microservicecloud-config-wdkang-test
+
 #  请保存为UTF-8格式
