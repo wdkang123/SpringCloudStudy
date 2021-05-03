@@ -1,0 +1,13 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name:  microservicecloud-config
+  cloud:
+    config:
+      label: main
+      server:
+        git:
+          uri: https://github.com/wdkang123/SpringCloudStudy
+          search-paths: config
